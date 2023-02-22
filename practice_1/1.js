@@ -40,5 +40,5 @@ const d = prompt ('На сколько оцените его?', '');
 personalMovieDB.movies [a] = b;
 //personalMovieDB.movies.logan = 8.1
 personalMovieDB.movies [c] = d;
-
+//personalMovieDB.movies.logan = 8.1
 console.log(personalMovieDB)
