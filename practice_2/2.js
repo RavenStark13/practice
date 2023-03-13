@@ -30,22 +30,22 @@ let work=true;
 while (work)
 {
     const a = prompt('Один из последних просмотренных фильмов?', '');
-    if (a == '' || a.length >50) {
+    if (a == null || a == '' || a.length >50) {
         continue;
     }
 
     const b = prompt ('На сколько оцените его?', '');
-    if (b == '' || b.length >50) {
+    if (b == null || b == '' || b.length >50) {
         continue;
     }
 
     const c = prompt('Один из последних просмотренных фильмов?', '');
-    if (c == '' || c.length >50) {
+    if (c == null || c == '' || c.length >50) {
         continue;
     }
 
     const d = prompt ('На сколько оцените его?', '');
-    if (d == '' || d.length >50) {
+    if (d == null || d == '' || d.length >50) {
         continue;
     }
     personalMovieDB.movies [a] = b;
